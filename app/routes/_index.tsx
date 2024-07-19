@@ -1,4 +1,11 @@
 import type { MetaFunction } from "@remix-run/node";
+import {
+  DesktopOutlined,
+  FileOutlined,
+  PieChartOutlined,
+  TeamOutlined,
+  UserOutlined,
+} from "@ant-design/icons";
 
 export const meta: MetaFunction = () => {
   return [
@@ -11,6 +18,8 @@ export default function Index() {
   return (
     <div className="font-sans p-4">
       <h1 className="text-3xl">Welcome to Remix</h1>
+      <UserOutlined />
+      <UserOutlined />
       <ul className="list-disc mt-4 pl-6 space-y-2">
         <li>
           <a
